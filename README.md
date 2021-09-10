@@ -3,42 +3,44 @@
 
 Async-Animanga is an async ready web scraping library that returns Manga information from animeplanet. Hentai and Anime are not supported as of yet but will be soon.
 
+![Lines of code](https://img.shields.io/tokei/lines/github.com/TheOnlyWayUp/Async-Animanga?style=for-the-badge)
+
 ## Installation
 ```py
 python3 -m pip install Async-Animanga
 >>> from Async_Animanga import Manga
 ```
 
-#### What you can get
-##### Manga
-- Manga Author
-- - `get_manga_author(self, manga: str)` String output.
-- Manga Characters
-- - `get_manga_characters(self, manga: str)` List output.
-- Manga Content Warnings
-- - `get_manga_content_warning(self, manga: str)` List output.
-- Manga Cover (URL)
-- - `get_manga_cover(self, manga: str)` String output.
-- Manga Description
-- - `get_manga_description(self, manga: str)` String output.
-- All Manga Information as JSON (Use the functions instead)
-- - `get_manga_json(self, manga: str)` Dictionary output.
-- Manga Rank
-- - `get_manga_rank(self, manga: str)` String output.
-- Manga Rating
-- - `get_manga_rating(self, manga: str)` String output.
-- Manga Reviews
-- - `get_manga_reviews(self, manga: str)` List output.
-- Manga Size
-- - `get_manga_size(self, manga: str)` String output.
-- Manga Tags
-- - `get_manga_tags(self, manga: str)` List output.
-- Manga URL
-- - `get_manga_url(self, manga: str)` String output.
-- Manga Years (Years Manga was in Production)
-- - `get_manga_year(self, manga: str)` String output.
-- Popular Manga
-- - `get_popular_manga(self)` List output.
+## What you can get
+### Manga
+#### Manga Author
+- `get_manga_author(self, manga: str)` String output.
+#### Manga Characters
+- `get_manga_characters(self, manga: str)` List output.
+#### Manga Content Warnings
+- `get_manga_content_warning(self, manga: str)` List output.
+#### Manga Cover (URL)
+- `get_manga_cover(self, manga: str)` String output.
+#### Manga Description
+- `get_manga_description(self, manga: str)` String output.
+#### All Manga Information as JSON (Use the functions instead)
+- `get_manga_json(self, manga: str)` Dictionary output.
+#### Manga Rank
+- `get_manga_rank(self, manga: str)` String output.
+#### Manga Rating
+- `get_manga_rating(self, manga: str)` String output.
+#### Manga Reviews
+- `get_manga_reviews(self, manga: str)` List output.
+#### Manga Size
+- `get_manga_size(self, manga: str)` String output.
+#### Manga Tags
+- `get_manga_tags(self, manga: str)` List output.
+#### Manga URL
+- `get_manga_url(self, manga: str)` String output.
+#### Manga Years (Years Manga was in Production)
+- `get_manga_year(self, manga: str)` String output.
+#### Popular Manga
+- `get_popular_manga(self)` List output.
 
 
 Code and Response examples will be below.
