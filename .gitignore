@@ -1,0 +1,6 @@
+Async_Animanga.egg-info
+build
+dist
+test.py
+*.pyc
+.vscode
