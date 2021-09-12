@@ -57,14 +57,14 @@ Code and Response examples will be below.
 
 #### Manga Author
 ```py
-from Async-Animanga import Manga
+from Async_Animanga import Manga
 loop = asyncio.get_event_loop()
 print(loop.run_until_complete(Manga.get_manga_author(Manga, "bleach")))
 ```
 `tite-kubo`
 #### Manga Characters
 ```py
-from Async-Animanga import Manga
+from Async_Animanga import Manga
 loop = asyncio.get_event_loop()
 print(loop.run_until_complete(Manga.get_manga_characters(Manga, "bleach")))
 ```
@@ -72,21 +72,21 @@ print(loop.run_until_complete(Manga.get_manga_characters(Manga, "bleach")))
 It actually returns a huge list, I shortened it here.
 #### Manga Content Warning
 ```py
-from Async-Animanga import Manga
+from Async_Animanga import Manga
 loop = asyncio.get_event_loop()
 print(loop.run_until_complete(Manga.get_manga_content_warning(Manga, "bleach")))
 ```
 `['Violence']`
 #### Manga Cover
 ```py
-from Async-Animanga import Manga
+from Async_Animanga import Manga
 loop = asyncio.get_event_loop()
 print(loop.run_until_complete(Manga.get_manga_cover(Manga, "bleach")))
 ```
 `https://www.anime-planet.com/images/manga/covers/178.jpg?t=1394840454`
 #### Manga Description
 ```py
-from Async-Animanga import Manga
+from Async_Animanga import Manga
 loop = asyncio.get_event_loop()
 print(loop.run_until_complete(Manga.get_manga_description(Manga, "bleach")))
 ```
@@ -94,14 +94,14 @@ print(loop.run_until_complete(Manga.get_manga_description(Manga, "bleach")))
 It returned the full description but I shortened it.
 #### Manga JSON
 ```py
-from Async-Animanga import Manga
+from Async_Animanga import Manga
 loop = asyncio.get_event_loop()
 print(loop.run_until_complete(Manga.get_manga_json(Manga, "bleach")))
 ```
 `
 #### Manga Rank
 ```py
-from Async-Animanga import Manga
+from Async_Animanga import Manga
 loop = asyncio.get_event_loop()
 print(loop.run_until_complete(Manga.get_manga_rank(Manga, "bleach")))
 ```
@@ -109,49 +109,49 @@ print(loop.run_until_complete(Manga.get_manga_rank(Manga, "bleach")))
 It returned the full JSON, I shortened it.
 #### Manga Rating
 ```py
-from Async-Animanga import Manga
+from Async_Animanga import Manga
 loop = asyncio.get_event_loop()
 print(loop.run_until_complete(Manga.get_manga_rating(Manga, "bleach")))
 ```
 `Rank #1,954`
 #### Manga Reviews
 ```py
-from Async-Animanga import Manga
+from Async_Animanga import Manga
 loop = asyncio.get_event_loop()
 print(loop.run_until_complete(Manga.get_manga_reviews(Manga, "bleach")))
 ```
 `['Story:\n', "I love Bleach. I think it has some great story arcs, awesome characters and some cool action scenes. However, amongst that is the 9 volume wait for the main plot to start (athough it's well worth the wait), some seriously underdeveloped characters and that stupid but necessary story arc in volumes 49-54.\n", 'Okay... I need to get my thoughts down on this series. I\'ve been a Naruto fan for the past six years and only this year, 2013, did I decide to sit down and read the Bleach manga. I thought "Now I\'d be the biggest goddamn hypocrite if I said Bleach sucked ass without ever perusing the source material". Never mind that I had been saying that the whole time I had been a Naruto fan.\n', '*THIS REVIEW IS BASED ON CHAPTERS 1-581*\n', 'Bleach\n']`
 #### Manga Size
 ```py
-from Async-Animanga import Manga
+from Async_Animanga import Manga
 loop = asyncio.get_event_loop()
 print(loop.run_until_complete(Manga.get_manga_size(Manga, "bleach")))
 ```
 `Vol: 74; Ch: 686`
 #### Manga Tags
 ```py
-from Async-Animanga import Manga
+from Async_Animanga import Manga
 loop = asyncio.get_event_loop()
 print(loop.run_until_complete(Manga.get_manga_tags(Manga, "bleach")))
 ```
 `['Action', 'Adventure', 'Comedy', 'Drama', 'Shounen', 'Afterlife', 'Ghosts', 'Shinigami', 'Supernatural', 'Adapted to Anime', 'Violence']`
 #### Manga URL
 ```py
-from Async-Animanga import Manga
+from Async_Animanga import Manga
 loop = asyncio.get_event_loop()
 print(loop.run_until_complete(Manga.get_manga_url(Manga, "bleach")))
 ```
 `https://www.anime-planet.com/manga/bleach`
 #### Manga Year
 ```py
-from Async-Animanga import Manga
+from Async_Animanga import Manga
 loop = asyncio.get_event_loop()
 print(loop.run_until_complete(Manga.get_manga_year(Manga, "bleach")))
 ```
 `2002 - 2016`
 #### Popular Manga
 ```py
-from Async-Animanga import Manga
+from Async_Animanga import Manga
 loop = asyncio.get_event_loop()
 print(loop.run_until_complete(Manga.get_popular_manga(Manga, "bleach")))
 ```

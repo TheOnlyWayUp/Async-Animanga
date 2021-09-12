@@ -5,7 +5,7 @@ import os
 with open("README.md") as f:
     LONGDESCRIPTION = f.read()
 
-VERSION = "0.2"
+VERSION = "0.2.9"
 DESCRIPTION = "Async-Animanga is a python module which scrapes the web to get information on Anime, Manga (and hentai)."
 
 # Setting up
